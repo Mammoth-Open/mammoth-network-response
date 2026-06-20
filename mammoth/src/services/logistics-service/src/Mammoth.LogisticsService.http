@@ -1,0 +1,6 @@
+@Mammoth.LogisticsService_HostAddress = http://localhost:5138
+
+GET {{Mammoth.LogisticsService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

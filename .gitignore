@@ -1,0 +1,72 @@
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.db
+*.jfm
+
+# ---- ASP.NET / Web ----
+wwwroot/dist/
+wwwroot/build/
+
+# ---- Node / React ----
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+*.tsbuildinfo
+
+# ---- MAUI ----
+*.apk
+*.aab
+*.app
+*.ipa
+*.xcarchive
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# ---- Aspire ----
+*.dapr/
+components/
+secrets/
+
+# ---- Docker ----
+docker-data/
+*.tar
+*.img
+
+# ---- Logs ----
+*.log
+logs/
+log/
+
+# ---- Environment / Secrets ----
+.env
+.env.*
+secrets.json
+appsettings.Development.json
+
+# ---- VS Code ----
+.vscode/
+.history/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Python (AI experiments) ----
+__pycache__/
+*.pyc
+.venv/
+
+# ---- Terraform (future use) ----
+.terraform/
+terraform.tfstate*
