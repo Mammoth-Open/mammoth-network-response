@@ -12,7 +12,7 @@ Mammoth begins as an emergency‑response coordination system and expands into a
 
 Core principles:
 - Event‑sourced domain model
-- CQRS with EventStoreDB + PostgreSQL
+- CQRS with KurrentDB + PostgreSQL
 - Modular microservices
 - Multi‑tenant SaaS architecture
 - AI‑driven intelligence
@@ -43,7 +43,7 @@ mammoth/
 
 ### Backend
 - .NET 8
-- EventStoreDB (event‑sourcing)
+- KurrentDB (event‑sourcing)
 - PostgreSQL + PostGIS (read models + geo)
 - Redis (cache + ephemeral state)
 - Aspire (local orchestration)
@@ -70,7 +70,7 @@ mammoth/
 - Docker Desktop
 - PowerShell 7
 - PostgreSQL
-- EventStoreDB
+- KurrentDB
 - Redis
 
 ### 2. Clone the repository
@@ -123,7 +123,7 @@ Contributions are welcome — architecture discussions happen in `/docs`.
 ---
 
 ## 📄 License
-
+a
 MIT (or your preferred license)
 
 ---
