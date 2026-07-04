@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Mammoth.AppHost/Mammoth.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/src/gateway/" />
+  <Folder Name="/src/gateway/src/">
+    <Project Path="src/gateway/src/Mammoth.Gateway.csproj" />
+  </Folder>
+  <Folder Name="/src/services/" />
+  <Folder Name="/src/services/volunteer-service/" />
+  <Folder Name="/src/services/volunteer-service/src/">
+    <Project Path="src/services/volunteer-service/src/Mammoth.VolunteerService.csproj" />
+  </Folder>
+  <Folder Name="/src/shared/" />
+  <Folder Name="/src/shared/domain/">
+    <Project Path="src/shared/domain/Mammoth.Shared.Domain.csproj" />
+  </Folder>
+</Solution>

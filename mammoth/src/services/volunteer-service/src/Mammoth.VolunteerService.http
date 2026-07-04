@@ -1,0 +1,6 @@
+@Mammoth.VolunteerService_HostAddress = http://localhost:5119
+
+GET {{Mammoth.VolunteerService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
